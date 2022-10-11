@@ -1,0 +1,2538 @@
+Opening mnist dataset ...
+Preprocessing mnist dataset ...
+Building the two layer model ...
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+flatten_1 (Flatten)          (None, 784)               0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 200)               157000    
+_________________________________________________________________
+activation_1 (Activation)    (None, 200)               0         
+_________________________________________________________________
+dense_2 (Dense)              (None, 200)               40200     
+_________________________________________________________________
+activation_2 (Activation)    (None, 200)               0         
+_________________________________________________________________
+dense_3 (Dense)              (None, 10)                2010      
+=================================================================
+Total params: 199,210
+Trainable params: 199,210
+Non-trainable params: 0
+_________________________________________________________________
+Training the two layer perceptron model ...
+iteration 1
+Getting batch of size 64 ...
+Loss: 2.3746140003204346
+Accuracy: 0.078125
+
+iteration 2
+Getting batch of size 64 ...
+Loss: 2.2979812622070312
+Accuracy: 0.125
+
+iteration 3
+Getting batch of size 64 ...
+Loss: 2.197930335998535
+Accuracy: 0.34375
+
+iteration 4
+Getting batch of size 64 ...
+Loss: 2.1527743339538574
+Accuracy: 0.359375
+
+iteration 5
+Getting batch of size 64 ...
+Loss: 2.1854097843170166
+Accuracy: 0.203125
+
+iteration 6
+Getting batch of size 64 ...
+Loss: 2.0901739597320557
+Accuracy: 0.4375
+
+iteration 7
+Getting batch of size 64 ...
+Loss: 2.0356273651123047
+Accuracy: 0.484375
+
+iteration 8
+Getting batch of size 64 ...
+Loss: 1.982466459274292
+Accuracy: 0.53125
+
+iteration 9
+Getting batch of size 64 ...
+Loss: 1.9037052392959595
+Accuracy: 0.546875
+
+iteration 10
+Getting batch of size 64 ...
+Loss: 1.8681578636169434
+Accuracy: 0.46875
+
+iteration 11
+Getting batch of size 64 ...
+Loss: 1.7659475803375244
+Accuracy: 0.59375
+
+iteration 12
+Getting batch of size 64 ...
+Loss: 1.7494357824325562
+Accuracy: 0.546875
+
+iteration 13
+Getting batch of size 64 ...
+Loss: 1.735586166381836
+Accuracy: 0.578125
+
+iteration 14
+Getting batch of size 64 ...
+Loss: 1.5739072561264038
+Accuracy: 0.640625
+
+iteration 15
+Getting batch of size 64 ...
+Loss: 1.692815899848938
+Accuracy: 0.578125
+
+iteration 16
+Getting batch of size 64 ...
+Loss: 1.4317742586135864
+Accuracy: 0.734375
+
+iteration 17
+Getting batch of size 64 ...
+Loss: 1.428684949874878
+Accuracy: 0.6875
+
+iteration 18
+Getting batch of size 64 ...
+Loss: 1.3263182640075684
+Accuracy: 0.703125
+
+iteration 19
+Getting batch of size 64 ...
+Loss: 1.4780217409133911
+Accuracy: 0.640625
+
+iteration 20
+Getting batch of size 64 ...
+Loss: 1.360314130783081
+Accuracy: 0.734375
+
+iteration 21
+Getting batch of size 64 ...
+Loss: 1.2959927320480347
+Accuracy: 0.671875
+
+iteration 22
+Getting batch of size 64 ...
+Loss: 1.219355583190918
+Accuracy: 0.765625
+
+iteration 23
+Getting batch of size 64 ...
+Loss: 1.1255300045013428
+Accuracy: 0.734375
+
+iteration 24
+Getting batch of size 64 ...
+Loss: 1.0248476266860962
+Accuracy: 0.78125
+
+iteration 25
+Getting batch of size 64 ...
+Loss: 1.035963773727417
+Accuracy: 0.78125
+
+iteration 26
+Getting batch of size 64 ...
+Loss: 1.1191308498382568
+Accuracy: 0.6875
+
+iteration 27
+Getting batch of size 64 ...
+Loss: 1.1687252521514893
+Accuracy: 0.625
+
+iteration 28
+Getting batch of size 64 ...
+Loss: 1.032488226890564
+Accuracy: 0.734375
+
+iteration 29
+Getting batch of size 64 ...
+Loss: 0.8113342523574829
+Accuracy: 0.8125
+
+iteration 30
+Getting batch of size 64 ...
+Loss: 0.9100973010063171
+Accuracy: 0.78125
+
+iteration 31
+Getting batch of size 64 ...
+Loss: 1.0202871561050415
+Accuracy: 0.671875
+
+iteration 32
+Getting batch of size 64 ...
+Loss: 1.0219471454620361
+Accuracy: 0.671875
+
+iteration 33
+Getting batch of size 64 ...
+Loss: 1.011169195175171
+Accuracy: 0.640625
+
+iteration 34
+Getting batch of size 64 ...
+Loss: 0.9598677754402161
+Accuracy: 0.6875
+
+iteration 35
+Getting batch of size 64 ...
+Loss: 0.9280143976211548
+Accuracy: 0.6875
+
+iteration 36
+Getting batch of size 64 ...
+Loss: 0.9662816524505615
+Accuracy: 0.625
+
+iteration 37
+Getting batch of size 64 ...
+Loss: 0.9711621999740601
+Accuracy: 0.734375
+
+iteration 38
+Getting batch of size 64 ...
+Loss: 0.7009375691413879
+Accuracy: 0.8125
+
+iteration 39
+Getting batch of size 64 ...
+Loss: 0.6861448884010315
+Accuracy: 0.859375
+
+iteration 40
+Getting batch of size 64 ...
+Loss: 0.614493727684021
+Accuracy: 0.828125
+
+iteration 41
+Getting batch of size 64 ...
+Loss: 0.6684576272964478
+Accuracy: 0.859375
+
+iteration 42
+Getting batch of size 64 ...
+Loss: 0.8621256351470947
+Accuracy: 0.765625
+
+iteration 43
+Getting batch of size 64 ...
+Loss: 0.7654973268508911
+Accuracy: 0.796875
+
+iteration 44
+Getting batch of size 64 ...
+Loss: 0.5932899713516235
+Accuracy: 0.90625
+
+iteration 45
+Getting batch of size 64 ...
+Loss: 0.789643406867981
+Accuracy: 0.78125
+
+iteration 46
+Getting batch of size 64 ...
+Loss: 0.8201800584793091
+Accuracy: 0.78125
+
+iteration 47
+Getting batch of size 64 ...
+Loss: 0.5218740701675415
+Accuracy: 0.90625
+
+iteration 48
+Getting batch of size 64 ...
+Loss: 0.7461832761764526
+Accuracy: 0.828125
+
+iteration 49
+Getting batch of size 64 ...
+Loss: 0.6325289607048035
+Accuracy: 0.8125
+
+iteration 50
+Getting batch of size 64 ...
+Loss: 0.51636803150177
+Accuracy: 0.890625
+
+iteration 51
+Getting batch of size 64 ...
+Loss: 0.8385735750198364
+Accuracy: 0.71875
+
+iteration 52
+Getting batch of size 64 ...
+Loss: 0.7758263349533081
+Accuracy: 0.703125
+
+iteration 53
+Getting batch of size 64 ...
+Loss: 0.5833777189254761
+Accuracy: 0.84375
+
+iteration 54
+Getting batch of size 64 ...
+Loss: 0.4471814036369324
+Accuracy: 0.90625
+
+iteration 55
+Getting batch of size 64 ...
+Loss: 0.5660755634307861
+Accuracy: 0.84375
+
+iteration 56
+Getting batch of size 64 ...
+Loss: 0.6407166719436646
+Accuracy: 0.765625
+
+iteration 57
+Getting batch of size 64 ...
+Loss: 0.8418583869934082
+Accuracy: 0.71875
+
+iteration 58
+Getting batch of size 64 ...
+Loss: 0.6951634883880615
+Accuracy: 0.84375
+
+iteration 59
+Getting batch of size 64 ...
+Loss: 0.5650126934051514
+Accuracy: 0.859375
+
+iteration 60
+Getting batch of size 64 ...
+Loss: 0.6294116973876953
+Accuracy: 0.78125
+
+iteration 61
+Getting batch of size 64 ...
+Loss: 0.7247083187103271
+Accuracy: 0.8125
+
+iteration 62
+Getting batch of size 64 ...
+Loss: 0.5838625431060791
+Accuracy: 0.828125
+
+iteration 63
+Getting batch of size 64 ...
+Loss: 0.5655773282051086
+Accuracy: 0.84375
+
+iteration 64
+Getting batch of size 64 ...
+Loss: 0.6388875246047974
+Accuracy: 0.828125
+
+iteration 65
+Getting batch of size 64 ...
+Loss: 0.5033190250396729
+Accuracy: 0.875
+
+iteration 66
+Getting batch of size 64 ...
+Loss: 0.5427047610282898
+Accuracy: 0.890625
+
+iteration 67
+Getting batch of size 64 ...
+Loss: 0.6478351354598999
+Accuracy: 0.8125
+
+iteration 68
+Getting batch of size 64 ...
+Loss: 0.5097604393959045
+Accuracy: 0.859375
+
+iteration 69
+Getting batch of size 64 ...
+Loss: 0.5739327073097229
+Accuracy: 0.859375
+
+iteration 70
+Getting batch of size 64 ...
+Loss: 0.5512489080429077
+Accuracy: 0.765625
+
+iteration 71
+Getting batch of size 64 ...
+Loss: 0.437741219997406
+Accuracy: 0.890625
+
+iteration 72
+Getting batch of size 64 ...
+Loss: 0.5003257989883423
+Accuracy: 0.828125
+
+iteration 73
+Getting batch of size 64 ...
+Loss: 0.6078283786773682
+Accuracy: 0.765625
+
+iteration 74
+Getting batch of size 64 ...
+Loss: 0.8118356466293335
+Accuracy: 0.75
+
+iteration 75
+Getting batch of size 64 ...
+Loss: 0.5407779216766357
+Accuracy: 0.859375
+
+iteration 76
+Getting batch of size 64 ...
+Loss: 0.4801732301712036
+Accuracy: 0.875
+
+iteration 77
+Getting batch of size 64 ...
+Loss: 0.3254418671131134
+Accuracy: 0.9375
+
+iteration 78
+Getting batch of size 64 ...
+Loss: 0.5864477157592773
+Accuracy: 0.828125
+
+iteration 79
+Getting batch of size 64 ...
+Loss: 0.44874119758605957
+Accuracy: 0.890625
+
+iteration 80
+Getting batch of size 64 ...
+Loss: 0.44559353590011597
+Accuracy: 0.890625
+
+iteration 81
+Getting batch of size 64 ...
+Loss: 0.4793400764465332
+Accuracy: 0.84375
+
+iteration 82
+Getting batch of size 64 ...
+Loss: 0.7058489918708801
+Accuracy: 0.8125
+
+iteration 83
+Getting batch of size 64 ...
+Loss: 0.3727962374687195
+Accuracy: 0.9375
+
+iteration 84
+Getting batch of size 64 ...
+Loss: 0.41433486342430115
+Accuracy: 0.859375
+
+iteration 85
+Getting batch of size 64 ...
+Loss: 0.3666023313999176
+Accuracy: 0.890625
+
+iteration 86
+Getting batch of size 64 ...
+Loss: 0.2306983321905136
+Accuracy: 0.953125
+
+iteration 87
+Getting batch of size 64 ...
+Loss: 0.47063401341438293
+Accuracy: 0.875
+
+iteration 88
+Getting batch of size 64 ...
+Loss: 0.4127383828163147
+Accuracy: 0.90625
+
+iteration 89
+Getting batch of size 64 ...
+Loss: 0.34430283308029175
+Accuracy: 0.921875
+
+iteration 90
+Getting batch of size 64 ...
+Loss: 0.3046594262123108
+Accuracy: 0.921875
+
+iteration 91
+Getting batch of size 64 ...
+Loss: 0.5450500249862671
+Accuracy: 0.8125
+
+iteration 92
+Getting batch of size 64 ...
+Loss: 0.5121182799339294
+Accuracy: 0.875
+
+iteration 93
+Getting batch of size 64 ...
+Loss: 0.6308287382125854
+Accuracy: 0.765625
+
+iteration 94
+Getting batch of size 64 ...
+Loss: 0.4801357686519623
+Accuracy: 0.859375
+
+iteration 95
+Getting batch of size 64 ...
+Loss: 0.5052921175956726
+Accuracy: 0.875
+
+iteration 96
+Getting batch of size 64 ...
+Loss: 0.5024736523628235
+Accuracy: 0.828125
+
+iteration 97
+Getting batch of size 64 ...
+Loss: 0.519917368888855
+Accuracy: 0.78125
+
+iteration 98
+Getting batch of size 64 ...
+Loss: 0.4076819121837616
+Accuracy: 0.890625
+
+iteration 99
+Getting batch of size 64 ...
+Loss: 0.3537020683288574
+Accuracy: 0.890625
+
+iteration 100
+Getting batch of size 64 ...
+Loss: 0.3236839771270752
+Accuracy: 0.9375
+
+iteration 101
+Getting batch of size 64 ...
+Loss: 0.4775497615337372
+Accuracy: 0.859375
+
+iteration 102
+Getting batch of size 64 ...
+Loss: 0.6013427376747131
+Accuracy: 0.796875
+
+iteration 103
+Getting batch of size 64 ...
+Loss: 0.45936745405197144
+Accuracy: 0.859375
+
+iteration 104
+Getting batch of size 64 ...
+Loss: 0.49173617362976074
+Accuracy: 0.859375
+
+iteration 105
+Getting batch of size 64 ...
+Loss: 0.4346717596054077
+Accuracy: 0.859375
+
+iteration 106
+Getting batch of size 64 ...
+Loss: 0.35723137855529785
+Accuracy: 0.875
+
+iteration 107
+Getting batch of size 64 ...
+Loss: 0.49405524134635925
+Accuracy: 0.828125
+
+iteration 108
+Getting batch of size 64 ...
+Loss: 0.5204485058784485
+Accuracy: 0.8125
+
+iteration 109
+Getting batch of size 64 ...
+Loss: 0.28881317377090454
+Accuracy: 0.921875
+
+iteration 110
+Getting batch of size 64 ...
+Loss: 0.6707502603530884
+Accuracy: 0.78125
+
+iteration 111
+Getting batch of size 64 ...
+Loss: 0.47130292654037476
+Accuracy: 0.875
+
+iteration 112
+Getting batch of size 64 ...
+Loss: 0.3550015687942505
+Accuracy: 0.859375
+
+iteration 113
+Getting batch of size 64 ...
+Loss: 0.28101029992103577
+Accuracy: 0.875
+
+iteration 114
+Getting batch of size 64 ...
+Loss: 0.33460867404937744
+Accuracy: 0.9375
+
+iteration 115
+Getting batch of size 64 ...
+Loss: 0.4252201020717621
+Accuracy: 0.859375
+
+iteration 116
+Getting batch of size 64 ...
+Loss: 0.4512162208557129
+Accuracy: 0.859375
+
+iteration 117
+Getting batch of size 64 ...
+Loss: 0.4472745656967163
+Accuracy: 0.828125
+
+iteration 118
+Getting batch of size 64 ...
+Loss: 0.5014070272445679
+Accuracy: 0.859375
+
+iteration 119
+Getting batch of size 64 ...
+Loss: 0.4349190592765808
+Accuracy: 0.859375
+
+iteration 120
+Getting batch of size 64 ...
+Loss: 0.5794645547866821
+Accuracy: 0.8125
+
+iteration 121
+Getting batch of size 64 ...
+Loss: 0.29498401284217834
+Accuracy: 0.921875
+
+iteration 122
+Getting batch of size 64 ...
+Loss: 0.4520646929740906
+Accuracy: 0.890625
+
+iteration 123
+Getting batch of size 64 ...
+Loss: 0.5286197662353516
+Accuracy: 0.890625
+
+iteration 124
+Getting batch of size 64 ...
+Loss: 0.4501206874847412
+Accuracy: 0.890625
+
+iteration 125
+Getting batch of size 64 ...
+Loss: 0.5095260143280029
+Accuracy: 0.8125
+
+iteration 126
+Getting batch of size 64 ...
+Loss: 0.5538324117660522
+Accuracy: 0.84375
+
+iteration 127
+Getting batch of size 64 ...
+Loss: 0.28964763879776
+Accuracy: 0.921875
+
+iteration 128
+Getting batch of size 64 ...
+Loss: 0.5508379936218262
+Accuracy: 0.84375
+
+iteration 129
+Getting batch of size 64 ...
+Loss: 0.5678409934043884
+Accuracy: 0.84375
+
+iteration 130
+Getting batch of size 64 ...
+Loss: 0.30875760316848755
+Accuracy: 0.890625
+
+iteration 131
+Getting batch of size 64 ...
+Loss: 0.35679560899734497
+Accuracy: 0.859375
+
+iteration 132
+Getting batch of size 64 ...
+Loss: 0.26302239298820496
+Accuracy: 0.9375
+
+iteration 133
+Getting batch of size 64 ...
+Loss: 0.34963804483413696
+Accuracy: 0.890625
+
+iteration 134
+Getting batch of size 64 ...
+Loss: 0.457979679107666
+Accuracy: 0.828125
+
+iteration 135
+Getting batch of size 64 ...
+Loss: 0.45537129044532776
+Accuracy: 0.84375
+
+iteration 136
+Getting batch of size 64 ...
+Loss: 0.3830827474594116
+Accuracy: 0.9375
+
+iteration 137
+Getting batch of size 64 ...
+Loss: 0.4938948154449463
+Accuracy: 0.84375
+
+iteration 138
+Getting batch of size 64 ...
+Loss: 0.5413160920143127
+Accuracy: 0.859375
+
+iteration 139
+Getting batch of size 64 ...
+Loss: 0.41424059867858887
+Accuracy: 0.875
+
+iteration 140
+Getting batch of size 64 ...
+Loss: 0.33346763253211975
+Accuracy: 0.90625
+
+iteration 141
+Getting batch of size 64 ...
+Loss: 0.23071926832199097
+Accuracy: 0.921875
+
+iteration 142
+Getting batch of size 64 ...
+Loss: 0.27585315704345703
+Accuracy: 0.921875
+
+iteration 143
+Getting batch of size 64 ...
+Loss: 0.3358798623085022
+Accuracy: 0.875
+
+iteration 144
+Getting batch of size 64 ...
+Loss: 0.422724187374115
+Accuracy: 0.890625
+
+iteration 145
+Getting batch of size 64 ...
+Loss: 0.2665889859199524
+Accuracy: 0.9375
+
+iteration 146
+Getting batch of size 64 ...
+Loss: 0.4446743130683899
+Accuracy: 0.875
+
+iteration 147
+Getting batch of size 64 ...
+Loss: 0.48973745107650757
+Accuracy: 0.921875
+
+iteration 148
+Getting batch of size 64 ...
+Loss: 0.3905317485332489
+Accuracy: 0.859375
+
+iteration 149
+Getting batch of size 64 ...
+Loss: 0.5203986167907715
+Accuracy: 0.796875
+
+iteration 150
+Getting batch of size 64 ...
+Loss: 0.4570882320404053
+Accuracy: 0.828125
+
+iteration 151
+Getting batch of size 64 ...
+Loss: 0.3843879699707031
+Accuracy: 0.890625
+
+iteration 152
+Getting batch of size 64 ...
+Loss: 0.2870555818080902
+Accuracy: 0.9375
+
+iteration 153
+Getting batch of size 64 ...
+Loss: 0.4849056303501129
+Accuracy: 0.84375
+
+iteration 154
+Getting batch of size 64 ...
+Loss: 0.39087945222854614
+Accuracy: 0.875
+
+iteration 155
+Getting batch of size 64 ...
+Loss: 0.3886318802833557
+Accuracy: 0.890625
+
+iteration 156
+Getting batch of size 64 ...
+Loss: 0.3717418909072876
+Accuracy: 0.875
+
+iteration 157
+Getting batch of size 64 ...
+Loss: 0.5018405318260193
+Accuracy: 0.84375
+
+iteration 158
+Getting batch of size 64 ...
+Loss: 0.20845875144004822
+Accuracy: 0.984375
+
+iteration 159
+Getting batch of size 64 ...
+Loss: 0.5514160990715027
+Accuracy: 0.859375
+
+iteration 160
+Getting batch of size 64 ...
+Loss: 0.37145066261291504
+Accuracy: 0.90625
+
+iteration 161
+Getting batch of size 64 ...
+Loss: 0.5879637002944946
+Accuracy: 0.859375
+
+iteration 162
+Getting batch of size 64 ...
+Loss: 0.3790625333786011
+Accuracy: 0.875
+
+iteration 163
+Getting batch of size 64 ...
+Loss: 0.48853740096092224
+Accuracy: 0.890625
+
+iteration 164
+Getting batch of size 64 ...
+Loss: 0.44057273864746094
+Accuracy: 0.875
+
+iteration 165
+Getting batch of size 64 ...
+Loss: 0.3213839828968048
+Accuracy: 0.9375
+
+iteration 166
+Getting batch of size 64 ...
+Loss: 0.4080063998699188
+Accuracy: 0.859375
+
+iteration 167
+Getting batch of size 64 ...
+Loss: 0.34964072704315186
+Accuracy: 0.90625
+
+iteration 168
+Getting batch of size 64 ...
+Loss: 0.38618573546409607
+Accuracy: 0.84375
+
+iteration 169
+Getting batch of size 64 ...
+Loss: 0.3381248116493225
+Accuracy: 0.921875
+
+iteration 170
+Getting batch of size 64 ...
+Loss: 0.38674527406692505
+Accuracy: 0.875
+
+iteration 171
+Getting batch of size 64 ...
+Loss: 0.47583067417144775
+Accuracy: 0.875
+
+iteration 172
+Getting batch of size 64 ...
+Loss: 0.3172507882118225
+Accuracy: 0.890625
+
+iteration 173
+Getting batch of size 64 ...
+Loss: 0.3271837830543518
+Accuracy: 0.90625
+
+iteration 174
+Getting batch of size 64 ...
+Loss: 0.3555808663368225
+Accuracy: 0.875
+
+iteration 175
+Getting batch of size 64 ...
+Loss: 0.42358893156051636
+Accuracy: 0.859375
+
+iteration 176
+Getting batch of size 64 ...
+Loss: 0.272183358669281
+Accuracy: 0.953125
+
+iteration 177
+Getting batch of size 64 ...
+Loss: 0.20954230427742004
+Accuracy: 0.9375
+
+iteration 178
+Getting batch of size 64 ...
+Loss: 0.3026907742023468
+Accuracy: 0.890625
+
+iteration 179
+Getting batch of size 64 ...
+Loss: 0.3358142375946045
+Accuracy: 0.890625
+
+iteration 180
+Getting batch of size 64 ...
+Loss: 0.3885459303855896
+Accuracy: 0.90625
+
+iteration 181
+Getting batch of size 64 ...
+Loss: 0.4446592926979065
+Accuracy: 0.875
+
+iteration 182
+Getting batch of size 64 ...
+Loss: 0.2295137494802475
+Accuracy: 0.9375
+
+iteration 183
+Getting batch of size 64 ...
+Loss: 0.44248002767562866
+Accuracy: 0.84375
+
+iteration 184
+Getting batch of size 64 ...
+Loss: 0.2966623902320862
+Accuracy: 0.921875
+
+iteration 185
+Getting batch of size 64 ...
+Loss: 0.28538382053375244
+Accuracy: 0.921875
+
+iteration 186
+Getting batch of size 64 ...
+Loss: 0.6197909116744995
+Accuracy: 0.84375
+
+iteration 187
+Getting batch of size 64 ...
+Loss: 0.5329605340957642
+Accuracy: 0.8125
+
+iteration 188
+Getting batch of size 64 ...
+Loss: 0.3885563611984253
+Accuracy: 0.890625
+
+iteration 189
+Getting batch of size 64 ...
+Loss: 0.27364659309387207
+Accuracy: 0.921875
+
+iteration 190
+Getting batch of size 64 ...
+Loss: 0.23059986531734467
+Accuracy: 0.9375
+
+iteration 191
+Getting batch of size 64 ...
+Loss: 0.3433243930339813
+Accuracy: 0.90625
+
+iteration 192
+Getting batch of size 64 ...
+Loss: 0.2605080008506775
+Accuracy: 0.9375
+
+iteration 193
+Getting batch of size 64 ...
+Loss: 0.35992592573165894
+Accuracy: 0.90625
+
+iteration 194
+Getting batch of size 64 ...
+Loss: 0.4287756085395813
+Accuracy: 0.890625
+
+iteration 195
+Getting batch of size 64 ...
+Loss: 0.3299630284309387
+Accuracy: 0.890625
+
+iteration 196
+Getting batch of size 64 ...
+Loss: 0.33729836344718933
+Accuracy: 0.90625
+
+iteration 197
+Getting batch of size 64 ...
+Loss: 0.24276980757713318
+Accuracy: 0.953125
+
+iteration 198
+Getting batch of size 64 ...
+Loss: 0.4492627680301666
+Accuracy: 0.875
+
+iteration 199
+Getting batch of size 64 ...
+Loss: 0.33372586965560913
+Accuracy: 0.90625
+
+iteration 200
+Getting batch of size 64 ...
+Loss: 0.2658924460411072
+Accuracy: 0.921875
+
+iteration 201
+Getting batch of size 64 ...
+Loss: 0.4199732840061188
+Accuracy: 0.875
+
+iteration 202
+Getting batch of size 64 ...
+Loss: 0.3738519549369812
+Accuracy: 0.90625
+
+iteration 203
+Getting batch of size 64 ...
+Loss: 0.24407845735549927
+Accuracy: 0.953125
+
+iteration 204
+Getting batch of size 64 ...
+Loss: 0.488651305437088
+Accuracy: 0.859375
+
+iteration 205
+Getting batch of size 64 ...
+Loss: 0.4028276205062866
+Accuracy: 0.921875
+
+iteration 206
+Getting batch of size 64 ...
+Loss: 0.31390777230262756
+Accuracy: 0.90625
+
+iteration 207
+Getting batch of size 64 ...
+Loss: 0.2664109468460083
+Accuracy: 0.9375
+
+iteration 208
+Getting batch of size 64 ...
+Loss: 0.3241730332374573
+Accuracy: 0.953125
+
+iteration 209
+Getting batch of size 64 ...
+Loss: 0.19553843140602112
+Accuracy: 0.953125
+
+iteration 210
+Getting batch of size 64 ...
+Loss: 0.27937012910842896
+Accuracy: 0.921875
+
+iteration 211
+Getting batch of size 64 ...
+Loss: 0.36395448446273804
+Accuracy: 0.859375
+
+iteration 212
+Getting batch of size 64 ...
+Loss: 0.5643426179885864
+Accuracy: 0.828125
+
+iteration 213
+Getting batch of size 64 ...
+Loss: 0.41838520765304565
+Accuracy: 0.875
+
+iteration 214
+Getting batch of size 64 ...
+Loss: 0.5235270857810974
+Accuracy: 0.859375
+
+iteration 215
+Getting batch of size 64 ...
+Loss: 0.2834317982196808
+Accuracy: 0.890625
+
+iteration 216
+Getting batch of size 64 ...
+Loss: 0.533062219619751
+Accuracy: 0.828125
+
+iteration 217
+Getting batch of size 64 ...
+Loss: 0.3688458204269409
+Accuracy: 0.875
+
+iteration 218
+Getting batch of size 64 ...
+Loss: 0.32880839705467224
+Accuracy: 0.921875
+
+iteration 219
+Getting batch of size 64 ...
+Loss: 0.3716716766357422
+Accuracy: 0.84375
+
+iteration 220
+Getting batch of size 64 ...
+Loss: 0.5616858601570129
+Accuracy: 0.828125
+
+iteration 221
+Getting batch of size 64 ...
+Loss: 0.6322749853134155
+Accuracy: 0.84375
+
+iteration 222
+Getting batch of size 64 ...
+Loss: 0.1920621544122696
+Accuracy: 0.9375
+
+iteration 223
+Getting batch of size 64 ...
+Loss: 0.24202583730220795
+Accuracy: 0.9375
+
+iteration 224
+Getting batch of size 64 ...
+Loss: 0.21620681881904602
+Accuracy: 0.96875
+
+iteration 225
+Getting batch of size 64 ...
+Loss: 0.2437448799610138
+Accuracy: 0.96875
+
+iteration 226
+Getting batch of size 64 ...
+Loss: 0.29893407225608826
+Accuracy: 0.9375
+
+iteration 227
+Getting batch of size 64 ...
+Loss: 0.2816464304924011
+Accuracy: 0.9375
+
+iteration 228
+Getting batch of size 64 ...
+Loss: 0.2721607983112335
+Accuracy: 0.921875
+
+iteration 229
+Getting batch of size 64 ...
+Loss: 0.22046270966529846
+Accuracy: 0.921875
+
+iteration 230
+Getting batch of size 64 ...
+Loss: 0.14657282829284668
+Accuracy: 0.984375
+
+iteration 231
+Getting batch of size 64 ...
+Loss: 0.28164607286453247
+Accuracy: 0.921875
+
+iteration 232
+Getting batch of size 64 ...
+Loss: 0.3439258933067322
+Accuracy: 0.890625
+
+iteration 233
+Getting batch of size 64 ...
+Loss: 0.26797476410865784
+Accuracy: 0.921875
+
+iteration 234
+Getting batch of size 64 ...
+Loss: 0.26819363236427307
+Accuracy: 0.9375
+
+iteration 235
+Getting batch of size 64 ...
+Loss: 0.21411290764808655
+Accuracy: 0.953125
+
+iteration 236
+Getting batch of size 64 ...
+Loss: 0.2869655191898346
+Accuracy: 0.890625
+
+iteration 237
+Getting batch of size 64 ...
+Loss: 0.37075677514076233
+Accuracy: 0.875
+
+iteration 238
+Getting batch of size 64 ...
+Loss: 0.3226425051689148
+Accuracy: 0.921875
+
+iteration 239
+Getting batch of size 64 ...
+Loss: 0.23784485459327698
+Accuracy: 0.921875
+
+iteration 240
+Getting batch of size 64 ...
+Loss: 0.41034209728240967
+Accuracy: 0.890625
+
+iteration 241
+Getting batch of size 64 ...
+Loss: 0.21417158842086792
+Accuracy: 0.953125
+
+iteration 242
+Getting batch of size 64 ...
+Loss: 0.304377943277359
+Accuracy: 0.875
+
+iteration 243
+Getting batch of size 64 ...
+Loss: 0.31154850125312805
+Accuracy: 0.9375
+
+iteration 244
+Getting batch of size 64 ...
+Loss: 0.291588693857193
+Accuracy: 0.90625
+
+iteration 245
+Getting batch of size 64 ...
+Loss: 0.1328105479478836
+Accuracy: 0.953125
+
+iteration 246
+Getting batch of size 64 ...
+Loss: 0.381354421377182
+Accuracy: 0.921875
+
+iteration 247
+Getting batch of size 64 ...
+Loss: 0.5342410802841187
+Accuracy: 0.859375
+
+iteration 248
+Getting batch of size 64 ...
+Loss: 0.2757565975189209
+Accuracy: 0.921875
+
+iteration 249
+Getting batch of size 64 ...
+Loss: 0.4199659824371338
+Accuracy: 0.859375
+
+iteration 250
+Getting batch of size 64 ...
+Loss: 0.3631097972393036
+Accuracy: 0.859375
+
+iteration 251
+Getting batch of size 64 ...
+Loss: 0.20914539694786072
+Accuracy: 0.9375
+
+iteration 252
+Getting batch of size 64 ...
+Loss: 0.19546660780906677
+Accuracy: 0.953125
+
+iteration 253
+Getting batch of size 64 ...
+Loss: 0.30454859137535095
+Accuracy: 0.90625
+
+iteration 254
+Getting batch of size 64 ...
+Loss: 0.24491216242313385
+Accuracy: 0.96875
+
+iteration 255
+Getting batch of size 64 ...
+Loss: 0.31288856267929077
+Accuracy: 0.90625
+
+iteration 256
+Getting batch of size 64 ...
+Loss: 0.36517661809921265
+Accuracy: 0.90625
+
+iteration 257
+Getting batch of size 64 ...
+Loss: 0.35659724473953247
+Accuracy: 0.875
+
+iteration 258
+Getting batch of size 64 ...
+Loss: 0.47783908247947693
+Accuracy: 0.859375
+
+iteration 259
+Getting batch of size 64 ...
+Loss: 0.11830876767635345
+Accuracy: 0.96875
+
+iteration 260
+Getting batch of size 64 ...
+Loss: 0.16707943379878998
+Accuracy: 0.953125
+
+iteration 261
+Getting batch of size 64 ...
+Loss: 0.37647098302841187
+Accuracy: 0.921875
+
+iteration 262
+Getting batch of size 64 ...
+Loss: 0.11622966080904007
+Accuracy: 0.984375
+
+iteration 263
+Getting batch of size 64 ...
+Loss: 0.1675858497619629
+Accuracy: 0.953125
+
+iteration 264
+Getting batch of size 64 ...
+Loss: 0.5939314365386963
+Accuracy: 0.859375
+
+iteration 265
+Getting batch of size 64 ...
+Loss: 0.27752482891082764
+Accuracy: 0.921875
+
+iteration 266
+Getting batch of size 64 ...
+Loss: 0.32278549671173096
+Accuracy: 0.9375
+
+iteration 267
+Getting batch of size 64 ...
+Loss: 0.2933090925216675
+Accuracy: 0.84375
+
+iteration 268
+Getting batch of size 64 ...
+Loss: 0.4148573577404022
+Accuracy: 0.875
+
+iteration 269
+Getting batch of size 64 ...
+Loss: 0.20518144965171814
+Accuracy: 0.953125
+
+iteration 270
+Getting batch of size 64 ...
+Loss: 0.2694821357727051
+Accuracy: 0.9375
+
+iteration 271
+Getting batch of size 64 ...
+Loss: 0.4868803024291992
+Accuracy: 0.828125
+
+iteration 272
+Getting batch of size 64 ...
+Loss: 0.2723069190979004
+Accuracy: 0.9375
+
+iteration 273
+Getting batch of size 64 ...
+Loss: 0.40258359909057617
+Accuracy: 0.875
+
+iteration 274
+Getting batch of size 64 ...
+Loss: 0.22442403435707092
+Accuracy: 0.96875
+
+iteration 275
+Getting batch of size 64 ...
+Loss: 0.376697838306427
+Accuracy: 0.90625
+
+iteration 276
+Getting batch of size 64 ...
+Loss: 0.4996974468231201
+Accuracy: 0.8125
+
+iteration 277
+Getting batch of size 64 ...
+Loss: 0.38364851474761963
+Accuracy: 0.875
+
+iteration 278
+Getting batch of size 64 ...
+Loss: 0.44125282764434814
+Accuracy: 0.90625
+
+iteration 279
+Getting batch of size 64 ...
+Loss: 0.3367081582546234
+Accuracy: 0.859375
+
+iteration 280
+Getting batch of size 64 ...
+Loss: 0.23029838502407074
+Accuracy: 0.96875
+
+iteration 281
+Getting batch of size 64 ...
+Loss: 0.26356005668640137
+Accuracy: 0.953125
+
+iteration 282
+Getting batch of size 64 ...
+Loss: 0.45446035265922546
+Accuracy: 0.84375
+
+iteration 283
+Getting batch of size 64 ...
+Loss: 0.3331550657749176
+Accuracy: 0.921875
+
+iteration 284
+Getting batch of size 64 ...
+Loss: 0.4378662109375
+Accuracy: 0.828125
+
+iteration 285
+Getting batch of size 64 ...
+Loss: 0.272424578666687
+Accuracy: 0.921875
+
+iteration 286
+Getting batch of size 64 ...
+Loss: 0.28782010078430176
+Accuracy: 0.859375
+
+iteration 287
+Getting batch of size 64 ...
+Loss: 0.38216671347618103
+Accuracy: 0.921875
+
+iteration 288
+Getting batch of size 64 ...
+Loss: 0.26568707823753357
+Accuracy: 0.90625
+
+iteration 289
+Getting batch of size 64 ...
+Loss: 0.2517850697040558
+Accuracy: 0.9375
+
+iteration 290
+Getting batch of size 64 ...
+Loss: 0.4705304503440857
+Accuracy: 0.875
+
+iteration 291
+Getting batch of size 64 ...
+Loss: 0.4056844711303711
+Accuracy: 0.890625
+
+iteration 292
+Getting batch of size 64 ...
+Loss: 0.35790717601776123
+Accuracy: 0.875
+
+iteration 293
+Getting batch of size 64 ...
+Loss: 0.31625741720199585
+Accuracy: 0.875
+
+iteration 294
+Getting batch of size 64 ...
+Loss: 0.22480937838554382
+Accuracy: 0.953125
+
+iteration 295
+Getting batch of size 64 ...
+Loss: 0.1392541229724884
+Accuracy: 0.96875
+
+iteration 296
+Getting batch of size 64 ...
+Loss: 0.4096466600894928
+Accuracy: 0.890625
+
+iteration 297
+Getting batch of size 64 ...
+Loss: 0.27266255021095276
+Accuracy: 0.90625
+
+iteration 298
+Getting batch of size 64 ...
+Loss: 0.38075536489486694
+Accuracy: 0.921875
+
+iteration 299
+Getting batch of size 64 ...
+Loss: 0.2861223816871643
+Accuracy: 0.921875
+
+iteration 300
+Getting batch of size 64 ...
+Loss: 0.42781001329421997
+Accuracy: 0.890625
+
+iteration 301
+Getting batch of size 64 ...
+Loss: 0.21386004984378815
+Accuracy: 0.953125
+
+iteration 302
+Getting batch of size 64 ...
+Loss: 0.5441024899482727
+Accuracy: 0.875
+
+iteration 303
+Getting batch of size 64 ...
+Loss: 0.4314765930175781
+Accuracy: 0.890625
+
+iteration 304
+Getting batch of size 64 ...
+Loss: 0.3549368381500244
+Accuracy: 0.921875
+
+iteration 305
+Getting batch of size 64 ...
+Loss: 0.4998045563697815
+Accuracy: 0.859375
+
+iteration 306
+Getting batch of size 64 ...
+Loss: 0.41214221715927124
+Accuracy: 0.890625
+
+iteration 307
+Getting batch of size 64 ...
+Loss: 0.40872061252593994
+Accuracy: 0.890625
+
+iteration 308
+Getting batch of size 64 ...
+Loss: 0.31616926193237305
+Accuracy: 0.9375
+
+iteration 309
+Getting batch of size 64 ...
+Loss: 0.1659647524356842
+Accuracy: 0.953125
+
+iteration 310
+Getting batch of size 64 ...
+Loss: 0.29060882329940796
+Accuracy: 0.875
+
+iteration 311
+Getting batch of size 64 ...
+Loss: 0.3682173490524292
+Accuracy: 0.921875
+
+iteration 312
+Getting batch of size 64 ...
+Loss: 0.30570104718208313
+Accuracy: 0.921875
+
+iteration 313
+Getting batch of size 64 ...
+Loss: 0.4788877069950104
+Accuracy: 0.8125
+
+iteration 314
+Getting batch of size 64 ...
+Loss: 0.3235699534416199
+Accuracy: 0.875
+
+iteration 315
+Getting batch of size 64 ...
+Loss: 0.3420063853263855
+Accuracy: 0.9375
+
+iteration 316
+Getting batch of size 64 ...
+Loss: 0.34786155819892883
+Accuracy: 0.890625
+
+iteration 317
+Getting batch of size 64 ...
+Loss: 0.3280155062675476
+Accuracy: 0.890625
+
+iteration 318
+Getting batch of size 64 ...
+Loss: 0.31802865862846375
+Accuracy: 0.921875
+
+iteration 319
+Getting batch of size 64 ...
+Loss: 0.19818590581417084
+Accuracy: 0.921875
+
+iteration 320
+Getting batch of size 64 ...
+Loss: 0.28418710827827454
+Accuracy: 0.9375
+
+iteration 321
+Getting batch of size 64 ...
+Loss: 0.44247567653656006
+Accuracy: 0.890625
+
+iteration 322
+Getting batch of size 64 ...
+Loss: 0.26997458934783936
+Accuracy: 0.921875
+
+iteration 323
+Getting batch of size 64 ...
+Loss: 0.2624792456626892
+Accuracy: 0.921875
+
+iteration 324
+Getting batch of size 64 ...
+Loss: 0.5282177925109863
+Accuracy: 0.859375
+
+iteration 325
+Getting batch of size 64 ...
+Loss: 0.2809017300605774
+Accuracy: 0.921875
+
+iteration 326
+Getting batch of size 64 ...
+Loss: 0.37541690468788147
+Accuracy: 0.921875
+
+iteration 327
+Getting batch of size 64 ...
+Loss: 0.23239672183990479
+Accuracy: 0.9375
+
+iteration 328
+Getting batch of size 64 ...
+Loss: 0.2796950340270996
+Accuracy: 0.890625
+
+iteration 329
+Getting batch of size 64 ...
+Loss: 0.20638704299926758
+Accuracy: 0.9375
+
+iteration 330
+Getting batch of size 64 ...
+Loss: 0.2405078113079071
+Accuracy: 0.90625
+
+iteration 331
+Getting batch of size 64 ...
+Loss: 0.2991636395454407
+Accuracy: 0.90625
+
+iteration 332
+Getting batch of size 64 ...
+Loss: 0.39177414774894714
+Accuracy: 0.875
+
+iteration 333
+Getting batch of size 64 ...
+Loss: 0.26755034923553467
+Accuracy: 0.921875
+
+iteration 334
+Getting batch of size 64 ...
+Loss: 0.3192172348499298
+Accuracy: 0.921875
+
+iteration 335
+Getting batch of size 64 ...
+Loss: 0.4099339246749878
+Accuracy: 0.875
+
+iteration 336
+Getting batch of size 64 ...
+Loss: 0.22646445035934448
+Accuracy: 0.953125
+
+iteration 337
+Getting batch of size 64 ...
+Loss: 0.2615441381931305
+Accuracy: 0.90625
+
+iteration 338
+Getting batch of size 64 ...
+Loss: 0.2152366042137146
+Accuracy: 0.953125
+
+iteration 339
+Getting batch of size 64 ...
+Loss: 0.2210424840450287
+Accuracy: 0.9375
+
+iteration 340
+Getting batch of size 64 ...
+Loss: 0.2330102026462555
+Accuracy: 0.9375
+
+iteration 341
+Getting batch of size 64 ...
+Loss: 0.3164999485015869
+Accuracy: 0.8125
+
+iteration 342
+Getting batch of size 64 ...
+Loss: 0.31426355242729187
+Accuracy: 0.90625
+
+iteration 343
+Getting batch of size 64 ...
+Loss: 0.2103421986103058
+Accuracy: 0.9375
+
+iteration 344
+Getting batch of size 64 ...
+Loss: 0.3953830599784851
+Accuracy: 0.84375
+
+iteration 345
+Getting batch of size 64 ...
+Loss: 0.4869506061077118
+Accuracy: 0.875
+
+iteration 346
+Getting batch of size 64 ...
+Loss: 0.24344635009765625
+Accuracy: 0.921875
+
+iteration 347
+Getting batch of size 64 ...
+Loss: 0.3868616819381714
+Accuracy: 0.90625
+
+iteration 348
+Getting batch of size 64 ...
+Loss: 0.11050684750080109
+Accuracy: 0.984375
+
+iteration 349
+Getting batch of size 64 ...
+Loss: 0.28797444701194763
+Accuracy: 0.9375
+
+iteration 350
+Getting batch of size 64 ...
+Loss: 0.2417999804019928
+Accuracy: 0.890625
+
+iteration 351
+Getting batch of size 64 ...
+Loss: 0.28963178396224976
+Accuracy: 0.921875
+
+iteration 352
+Getting batch of size 64 ...
+Loss: 0.36159011721611023
+Accuracy: 0.875
+
+iteration 353
+Getting batch of size 64 ...
+Loss: 0.26663967967033386
+Accuracy: 0.90625
+
+iteration 354
+Getting batch of size 64 ...
+Loss: 0.29316604137420654
+Accuracy: 0.90625
+
+iteration 355
+Getting batch of size 64 ...
+Loss: 0.2228173017501831
+Accuracy: 0.9375
+
+iteration 356
+Getting batch of size 64 ...
+Loss: 0.3761712312698364
+Accuracy: 0.90625
+
+iteration 357
+Getting batch of size 64 ...
+Loss: 0.16022825241088867
+Accuracy: 0.953125
+
+iteration 358
+Getting batch of size 64 ...
+Loss: 0.3565686345100403
+Accuracy: 0.890625
+
+iteration 359
+Getting batch of size 64 ...
+Loss: 0.33800187706947327
+Accuracy: 0.90625
+
+iteration 360
+Getting batch of size 64 ...
+Loss: 0.32486191391944885
+Accuracy: 0.90625
+
+iteration 361
+Getting batch of size 64 ...
+Loss: 0.1838424801826477
+Accuracy: 0.953125
+
+iteration 362
+Getting batch of size 64 ...
+Loss: 0.196012482047081
+Accuracy: 0.921875
+
+iteration 363
+Getting batch of size 64 ...
+Loss: 0.26527586579322815
+Accuracy: 0.921875
+
+iteration 364
+Getting batch of size 64 ...
+Loss: 0.3098697066307068
+Accuracy: 0.921875
+
+iteration 365
+Getting batch of size 64 ...
+Loss: 0.21566340327262878
+Accuracy: 0.9375
+
+iteration 366
+Getting batch of size 64 ...
+Loss: 0.1906183362007141
+Accuracy: 0.9375
+
+iteration 367
+Getting batch of size 64 ...
+Loss: 0.3006623387336731
+Accuracy: 0.859375
+
+iteration 368
+Getting batch of size 64 ...
+Loss: 0.4104776978492737
+Accuracy: 0.859375
+
+iteration 369
+Getting batch of size 64 ...
+Loss: 0.5309338569641113
+Accuracy: 0.890625
+
+iteration 370
+Getting batch of size 64 ...
+Loss: 0.2734028398990631
+Accuracy: 0.890625
+
+iteration 371
+Getting batch of size 64 ...
+Loss: 0.2780115604400635
+Accuracy: 0.90625
+
+iteration 372
+Getting batch of size 64 ...
+Loss: 0.3386598825454712
+Accuracy: 0.890625
+
+iteration 373
+Getting batch of size 64 ...
+Loss: 0.4257664084434509
+Accuracy: 0.890625
+
+iteration 374
+Getting batch of size 64 ...
+Loss: 0.1112508475780487
+Accuracy: 0.984375
+
+iteration 375
+Getting batch of size 64 ...
+Loss: 0.20984169840812683
+Accuracy: 0.921875
+
+iteration 376
+Getting batch of size 64 ...
+Loss: 0.4438696503639221
+Accuracy: 0.859375
+
+iteration 377
+Getting batch of size 64 ...
+Loss: 0.2498791366815567
+Accuracy: 0.9375
+
+iteration 378
+Getting batch of size 64 ...
+Loss: 0.46018335223197937
+Accuracy: 0.84375
+
+iteration 379
+Getting batch of size 64 ...
+Loss: 0.29166918992996216
+Accuracy: 0.921875
+
+iteration 380
+Getting batch of size 64 ...
+Loss: 0.21856260299682617
+Accuracy: 0.96875
+
+iteration 381
+Getting batch of size 64 ...
+Loss: 0.3398776650428772
+Accuracy: 0.890625
+
+iteration 382
+Getting batch of size 64 ...
+Loss: 0.1874033510684967
+Accuracy: 0.9375
+
+iteration 383
+Getting batch of size 64 ...
+Loss: 0.3848435878753662
+Accuracy: 0.859375
+
+iteration 384
+Getting batch of size 64 ...
+Loss: 0.19885796308517456
+Accuracy: 0.921875
+
+iteration 385
+Getting batch of size 64 ...
+Loss: 0.33407044410705566
+Accuracy: 0.90625
+
+iteration 386
+Getting batch of size 64 ...
+Loss: 0.27309805154800415
+Accuracy: 0.921875
+
+iteration 387
+Getting batch of size 64 ...
+Loss: 0.22777022421360016
+Accuracy: 0.9375
+
+iteration 388
+Getting batch of size 64 ...
+Loss: 0.18133969604969025
+Accuracy: 0.9375
+
+iteration 389
+Getting batch of size 64 ...
+Loss: 0.32683634757995605
+Accuracy: 0.875
+
+iteration 390
+Getting batch of size 64 ...
+Loss: 0.25014957785606384
+Accuracy: 0.921875
+
+iteration 391
+Getting batch of size 64 ...
+Loss: 0.2000638097524643
+Accuracy: 0.953125
+
+iteration 392
+Getting batch of size 64 ...
+Loss: 0.3527807295322418
+Accuracy: 0.890625
+
+iteration 393
+Getting batch of size 64 ...
+Loss: 0.2708055377006531
+Accuracy: 0.921875
+
+iteration 394
+Getting batch of size 64 ...
+Loss: 0.45642930269241333
+Accuracy: 0.875
+
+iteration 395
+Getting batch of size 64 ...
+Loss: 0.2700883150100708
+Accuracy: 0.921875
+
+iteration 396
+Getting batch of size 64 ...
+Loss: 0.3142186999320984
+Accuracy: 0.890625
+
+iteration 397
+Getting batch of size 64 ...
+Loss: 0.2393144816160202
+Accuracy: 0.9375
+
+iteration 398
+Getting batch of size 64 ...
+Loss: 0.21066178381443024
+Accuracy: 0.9375
+
+iteration 399
+Getting batch of size 64 ...
+Loss: 0.30149024724960327
+Accuracy: 0.875
+
+iteration 400
+Getting batch of size 64 ...
+Loss: 0.2844591736793518
+Accuracy: 0.921875
+
+iteration 401
+Getting batch of size 64 ...
+Loss: 0.3058101534843445
+Accuracy: 0.921875
+
+iteration 402
+Getting batch of size 64 ...
+Loss: 0.2114916443824768
+Accuracy: 0.921875
+
+iteration 403
+Getting batch of size 64 ...
+Loss: 0.19972321391105652
+Accuracy: 0.953125
+
+iteration 404
+Getting batch of size 64 ...
+Loss: 0.28626859188079834
+Accuracy: 0.921875
+
+iteration 405
+Getting batch of size 64 ...
+Loss: 0.14778155088424683
+Accuracy: 0.96875
+
+iteration 406
+Getting batch of size 64 ...
+Loss: 0.3112826943397522
+Accuracy: 0.90625
+
+iteration 407
+Getting batch of size 64 ...
+Loss: 0.24261638522148132
+Accuracy: 0.90625
+
+iteration 408
+Getting batch of size 64 ...
+Loss: 0.31252074241638184
+Accuracy: 0.90625
+
+iteration 409
+Getting batch of size 64 ...
+Loss: 0.3499144911766052
+Accuracy: 0.890625
+
+iteration 410
+Getting batch of size 64 ...
+Loss: 0.4915310740470886
+Accuracy: 0.921875
+
+iteration 411
+Getting batch of size 64 ...
+Loss: 0.12917345762252808
+Accuracy: 0.984375
+
+iteration 412
+Getting batch of size 64 ...
+Loss: 0.4418196380138397
+Accuracy: 0.90625
+
+iteration 413
+Getting batch of size 64 ...
+Loss: 0.24453410506248474
+Accuracy: 0.90625
+
+iteration 414
+Getting batch of size 64 ...
+Loss: 0.3952547609806061
+Accuracy: 0.875
+
+iteration 415
+Getting batch of size 64 ...
+Loss: 0.4171772003173828
+Accuracy: 0.875
+
+iteration 416
+Getting batch of size 64 ...
+Loss: 0.14838500320911407
+Accuracy: 0.96875
+
+iteration 417
+Getting batch of size 64 ...
+Loss: 0.27436044812202454
+Accuracy: 0.875
+
+iteration 418
+Getting batch of size 64 ...
+Loss: 0.5051206350326538
+Accuracy: 0.8125
+
+iteration 419
+Getting batch of size 64 ...
+Loss: 0.2830737829208374
+Accuracy: 0.9375
+
+iteration 420
+Getting batch of size 64 ...
+Loss: 0.1543409824371338
+Accuracy: 0.953125
+
+iteration 421
+Getting batch of size 64 ...
+Loss: 0.194502055644989
+Accuracy: 0.96875
+
+iteration 422
+Getting batch of size 64 ...
+Loss: 0.21658775210380554
+Accuracy: 0.90625
+
+iteration 423
+Getting batch of size 64 ...
+Loss: 0.10661320388317108
+Accuracy: 0.984375
+
+iteration 424
+Getting batch of size 64 ...
+Loss: 0.1712213158607483
+Accuracy: 0.9375
+
+iteration 425
+Getting batch of size 64 ...
+Loss: 0.2293694019317627
+Accuracy: 0.90625
+
+iteration 426
+Getting batch of size 64 ...
+Loss: 0.1382315754890442
+Accuracy: 0.953125
+
+iteration 427
+Getting batch of size 64 ...
+Loss: 0.14520519971847534
+Accuracy: 0.96875
+
+iteration 428
+Getting batch of size 64 ...
+Loss: 0.26213932037353516
+Accuracy: 0.890625
+
+iteration 429
+Getting batch of size 64 ...
+Loss: 0.22884239256381989
+Accuracy: 0.90625
+
+iteration 430
+Getting batch of size 64 ...
+Loss: 0.28008604049682617
+Accuracy: 0.90625
+
+iteration 431
+Getting batch of size 64 ...
+Loss: 0.28621381521224976
+Accuracy: 0.921875
+
+iteration 432
+Getting batch of size 64 ...
+Loss: 0.282211571931839
+Accuracy: 0.890625
+
+iteration 433
+Getting batch of size 64 ...
+Loss: 0.21694856882095337
+Accuracy: 0.90625
+
+iteration 434
+Getting batch of size 64 ...
+Loss: 0.19276535511016846
+Accuracy: 0.9375
+
+iteration 435
+Getting batch of size 64 ...
+Loss: 0.16534997522830963
+Accuracy: 0.96875
+
+iteration 436
+Getting batch of size 64 ...
+Loss: 0.16669687628746033
+Accuracy: 0.953125
+
+iteration 437
+Getting batch of size 64 ...
+Loss: 0.3212558627128601
+Accuracy: 0.890625
+
+iteration 438
+Getting batch of size 64 ...
+Loss: 0.10421134531497955
+Accuracy: 0.96875
+
+iteration 439
+Getting batch of size 64 ...
+Loss: 0.2256680130958557
+Accuracy: 0.953125
+
+iteration 440
+Getting batch of size 64 ...
+Loss: 0.3221327066421509
+Accuracy: 0.90625
+
+iteration 441
+Getting batch of size 64 ...
+Loss: 0.13500627875328064
+Accuracy: 0.953125
+
+iteration 442
+Getting batch of size 64 ...
+Loss: 0.47886571288108826
+Accuracy: 0.859375
+
+iteration 443
+Getting batch of size 64 ...
+Loss: 0.15133973956108093
+Accuracy: 0.953125
+
+iteration 444
+Getting batch of size 64 ...
+Loss: 0.38454487919807434
+Accuracy: 0.90625
+
+iteration 445
+Getting batch of size 64 ...
+Loss: 0.2524028420448303
+Accuracy: 0.921875
+
+iteration 446
+Getting batch of size 64 ...
+Loss: 0.3164147734642029
+Accuracy: 0.875
+
+iteration 447
+Getting batch of size 64 ...
+Loss: 0.23846593499183655
+Accuracy: 0.90625
+
+iteration 448
+Getting batch of size 64 ...
+Loss: 0.13479119539260864
+Accuracy: 0.9375
+
+iteration 449
+Getting batch of size 64 ...
+Loss: 0.16721799969673157
+Accuracy: 0.9375
+
+iteration 450
+Getting batch of size 64 ...
+Loss: 0.18073999881744385
+Accuracy: 0.9375
+
+iteration 451
+Getting batch of size 64 ...
+Loss: 0.19360971450805664
+Accuracy: 0.9375
+
+iteration 452
+Getting batch of size 64 ...
+Loss: 0.18895041942596436
+Accuracy: 0.953125
+
+iteration 453
+Getting batch of size 64 ...
+Loss: 0.25107884407043457
+Accuracy: 0.921875
+
+iteration 454
+Getting batch of size 64 ...
+Loss: 0.21934740245342255
+Accuracy: 0.90625
+
+iteration 455
+Getting batch of size 64 ...
+Loss: 0.2577342391014099
+Accuracy: 0.9375
+
+iteration 456
+Getting batch of size 64 ...
+Loss: 0.35511690378189087
+Accuracy: 0.921875
+
+iteration 457
+Getting batch of size 64 ...
+Loss: 0.24154257774353027
+Accuracy: 0.90625
+
+iteration 458
+Getting batch of size 64 ...
+Loss: 0.36803963780403137
+Accuracy: 0.859375
+
+iteration 459
+Getting batch of size 64 ...
+Loss: 0.3531254529953003
+Accuracy: 0.90625
+
+iteration 460
+Getting batch of size 64 ...
+Loss: 0.18054449558258057
+Accuracy: 0.921875
+
+iteration 461
+Getting batch of size 64 ...
+Loss: 0.3178812861442566
+Accuracy: 0.921875
+
+iteration 462
+Getting batch of size 64 ...
+Loss: 0.18630285561084747
+Accuracy: 0.921875
+
+iteration 463
+Getting batch of size 64 ...
+Loss: 0.21273896098136902
+Accuracy: 0.953125
+
+iteration 464
+Getting batch of size 64 ...
+Loss: 0.32932567596435547
+Accuracy: 0.875
+
+iteration 465
+Getting batch of size 64 ...
+Loss: 0.2680872082710266
+Accuracy: 0.9375
+
+iteration 466
+Getting batch of size 64 ...
+Loss: 0.28496286273002625
+Accuracy: 0.90625
+
+iteration 467
+Getting batch of size 64 ...
+Loss: 0.26150327920913696
+Accuracy: 0.921875
+
+iteration 468
+Getting batch of size 64 ...
+Loss: 0.1960456222295761
+Accuracy: 0.921875
+
+iteration 469
+Getting batch of size 64 ...
+Loss: 0.2748308777809143
+Accuracy: 0.90625
+
+iteration 470
+Getting batch of size 64 ...
+Loss: 0.3552436828613281
+Accuracy: 0.875
+
+iteration 471
+Getting batch of size 64 ...
+Loss: 0.4740128219127655
+Accuracy: 0.875
+
+iteration 472
+Getting batch of size 64 ...
+Loss: 0.18973387777805328
+Accuracy: 0.953125
+
+iteration 473
+Getting batch of size 64 ...
+Loss: 0.1458129733800888
+Accuracy: 0.96875
+
+iteration 474
+Getting batch of size 64 ...
+Loss: 0.26795268058776855
+Accuracy: 0.90625
+
+iteration 475
+Getting batch of size 64 ...
+Loss: 0.3497541546821594
+Accuracy: 0.875
+
+iteration 476
+Getting batch of size 64 ...
+Loss: 0.14593733847141266
+Accuracy: 0.96875
+
+iteration 477
+Getting batch of size 64 ...
+Loss: 0.312827467918396
+Accuracy: 0.921875
+
+iteration 478
+Getting batch of size 64 ...
+Loss: 0.3173932433128357
+Accuracy: 0.9375
+
+iteration 479
+Getting batch of size 64 ...
+Loss: 0.3565373718738556
+Accuracy: 0.90625
+
+iteration 480
+Getting batch of size 64 ...
+Loss: 0.2005641907453537
+Accuracy: 0.953125
+
+iteration 481
+Getting batch of size 64 ...
+Loss: 0.2732475996017456
+Accuracy: 0.90625
+
+iteration 482
+Getting batch of size 64 ...
+Loss: 0.23247914016246796
+Accuracy: 0.90625
+
+iteration 483
+Getting batch of size 64 ...
+Loss: 0.4022825360298157
+Accuracy: 0.90625
+
+iteration 484
+Getting batch of size 64 ...
+Loss: 0.21328595280647278
+Accuracy: 0.96875
+
+iteration 485
+Getting batch of size 64 ...
+Loss: 0.31460922956466675
+Accuracy: 0.890625
+
+iteration 486
+Getting batch of size 64 ...
+Loss: 0.22320003807544708
+Accuracy: 0.890625
+
+iteration 487
+Getting batch of size 64 ...
+Loss: 0.38429468870162964
+Accuracy: 0.921875
+
+iteration 488
+Getting batch of size 64 ...
+Loss: 0.20775914192199707
+Accuracy: 0.921875
+
+iteration 489
+Getting batch of size 64 ...
+Loss: 0.3529757857322693
+Accuracy: 0.875
+
+iteration 490
+Getting batch of size 64 ...
+Loss: 0.2380407601594925
+Accuracy: 0.921875
+
+iteration 491
+Getting batch of size 64 ...
+Loss: 0.29237765073776245
+Accuracy: 0.90625
+
+iteration 492
+Getting batch of size 64 ...
+Loss: 0.21465495228767395
+Accuracy: 0.921875
+
+iteration 493
+Getting batch of size 64 ...
+Loss: 0.11645296961069107
+Accuracy: 0.96875
+
+iteration 494
+Getting batch of size 64 ...
+Loss: 0.12609705328941345
+Accuracy: 0.96875
+
+iteration 495
+Getting batch of size 64 ...
+Loss: 0.14164990186691284
+Accuracy: 0.953125
+
+iteration 496
+Getting batch of size 64 ...
+Loss: 0.3314141035079956
+Accuracy: 0.90625
+
+iteration 497
+Getting batch of size 64 ...
+Loss: 0.11755581200122833
+Accuracy: 0.96875
+
+iteration 498
+Getting batch of size 64 ...
+Loss: 0.2968679368495941
+Accuracy: 0.875
+
+iteration 499
+Getting batch of size 64 ...
+Loss: 0.4353160858154297
+Accuracy: 0.875
+
+iteration 500
+Getting batch of size 64 ...
+Loss: 0.34421855211257935
+Accuracy: 0.875
+
+Testing the two layer perceptron model ...
+Model Accuracy: 0.928600013256073
+Confusion Matrix:
+
+[[ 964    0    2    1    0    3    4    2    4    0]
+ [   0 1108    3    2    1    0    3    2   16    0]
+ [  11    3  940   11    6    2    9   19   29    2]
+ [   2    2   14  921    0   22    1   17   31    0]
+ [   1    4    4    1  920    0    8    5   13   26]
+ [  13    3    3   21    5  791   11    4   37    4]
+ [  11    3    4    0   12   12  906    3    7    0]
+ [   3    8   21    4    7    0    0  976    4    5]
+ [   4    2    2   17    4    2    8   14  921    0]
+ [  10    5    1   10   37    9    1   71   26  839]]
