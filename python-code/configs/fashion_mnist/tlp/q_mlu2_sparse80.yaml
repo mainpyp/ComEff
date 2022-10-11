@@ -1,0 +1,21 @@
+dataset_name: "fashion_mnist"
+dataset_path: "../datasets/mnist"
+model_type: "tlp"
+output_path: "../../storage/produced-data/logs/fashion-mnist/tlp/"
+image_shape: !!python/tuple [28, 28]
+data_type: "float32"
+max_value: 255
+label_count: 10
+batch_size: 64
+learning_rate: 0.1
+loss: "categorical_crossentropy"
+metrics: ["accuracy"]
+max_iterations: 100
+client_count: 100
+quantification_flag: True
+quantification_options: {"dtype": np.float16}
+more_local_updates_flag: True
+more_local_updates_options: {"local_iterations": 2}
+sparsification_flag: True
+sparsification_options: {"percentile": 80}
+dataset_type: g

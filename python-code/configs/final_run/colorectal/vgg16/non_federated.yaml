@@ -1,0 +1,21 @@
+dataset_name: "colorectal"
+dataset_path: "../datasets/colorectal"
+model_type: "vgg16"
+output_path: "../../../storage/produced-data/logs/final_run/colorectal/vgg16/"
+image_shape: !!python/tuple [150, 150]
+dataset_type: c
+data_type: "float32"
+max_value: 255
+label_count: 8
+batch_size: 64
+learning_rate: 0.0025
+loss: "categorical_crossentropy"
+metrics: ["accuracy"]
+max_iterations: 100
+client_count: 100
+quantification_flag: False
+quantification_options: {"dtype": np.float16}
+more_local_updates_flag: False
+more_local_updates_options: {"local_iterations": 2}
+sparsification_flag: False
+sparsification_options: {"percentile": 80}

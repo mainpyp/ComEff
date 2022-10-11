@@ -1,0 +1,21 @@
+dataset_name: "fashion_mnist"
+dataset_path: "../datasets/fashion_mnist"
+model_type: "cnn"
+output_path: "../../storage/produced-data/logs/final_run/fashion_mnist/cnn/"
+image_shape: !!python/tuple [28, 28]
+data_type: "float32"
+max_value: 255
+label_count: 10
+batch_size: 64
+learning_rate: 0.1
+loss: "categorical_crossentropy"
+metrics: ["accuracy"]
+max_iterations: 200
+client_count: 10
+quantification_flag: False
+quantification_options: {"dtype": np.float16}
+more_local_updates_flag: False
+more_local_updates_options: {"local_iterations": 2}
+sparsification_flag: True
+sparsification_options: {"percentile": 50}
+dataset_type: g

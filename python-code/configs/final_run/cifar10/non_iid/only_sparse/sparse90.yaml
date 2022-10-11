@@ -1,0 +1,22 @@
+dataset_name: "cifar10"
+dataset_path: "../datasets/cifar10"
+model_type: "tlcnn"
+output_path: "../../storage/produced-data/logs/final_run/cifar10/non_iid/"
+image_shape: !!python/tuple [32, 32]
+data_type: "float32"
+max_value: 255
+label_count: 10
+batch_size: 64
+learning_rate: 0.05
+loss: "categorical_crossentropy"
+metrics: ["accuracy"]
+max_iterations: 150
+client_count: 10
+quantification_flag: False
+quantification_options: {"dtype": np.float16}
+more_local_updates_flag: False
+more_local_updates_options: {"local_iterations": 2}
+sparsification_flag: True
+sparsification_options: {"percentile": 90}
+dataset_type: c
+non_iid: True
